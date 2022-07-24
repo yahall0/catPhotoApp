@@ -9,7 +9,7 @@ const getCatImgs = async() => {
         img.setAttribute("src", data[k++].url);
         setInterval(() => {
             img.style.display = "block";
-        }, 2500);
+        }, 1500);
     }
 }
 
